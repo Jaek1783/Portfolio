@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* reset */
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+html,body,h1,h2,h3,dl,ul,li,dt,dd{
+    padding:0;
+    margin:0;
+    /* font-size:14; */
+    /* line-height: 1; */
+}
+.hideClass{
+    width:1;
+    height:1;
+    line-height: 0;
+    display: fixed;
+    visibility: hidden;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font:1em/23px arial,sans-serif;
+}
+
+/* #wrap div */
+#wrap{
+    width:1366px;
+    margin:0 auto;
+    /* background-color: azure; */
+}
+
+/* header */
+
+header{
+    /* width:100%; */
+    padding:0 100px;
+    height:100px;
+    /* background-color: blanchedalmond; */
+}
+h1{
+    float:left;
+}
+nav{
+    float:right;
+}
+nav>ul>li{
+    display:inline-block;
+    padding:0 20px;
+}
+/* section 전체 CSS */
+section{
+    padding:0 100px;
+}
+/* section01 */
+#section01{
+    height:670px;
+    background-color: azure;
+}
+
+.sec01Box{
+    padding-top:223px;
+    padding-right:50px;
+    width:500px;
+    height:230px;
+    /* float:right; */
+    text-align:left;
+    float:right;
+}
+.sec01Box>h2{
+    font:2.5em/70px arial,sans-serif;
+}
+.sec01Box>p{
+    width:440px;
+    font:1em/32px arial,sans-serif;
+}
+.sec01Box>button{
+ width:180px;
+ font:1em/54px arial,sans-serif;
+ background-color:#10c9c3;
+ color:#fff;
+ border:none;
+}
+/* section02 */
+#section02{
+    height:420px;
+    background-color:#ffd;
+}
+.sec02Box{
+    margin:0 auto;
+    width:590px;
+    text-align: center;
+    padding-top:100px;
+    font:18px/27px arial,sans-serif;
+}
+.sec02Box>h2{
+   font:bold 30px arial,sans-serif; 
+}
+/* section03 */
+#section03{
+    height:570px;
+    background-color: antiquewhite;
+}
+.sec03Box{
+    padding-top:165px;
+    width:530px;
+    font:12px arial, sans-serif;
+}
+.sec03Box>h2{
+    font:bold 30px arial,sans-serif;
+    padding-bottom:40px;
+}
+/* section03_스킬 퍼센트% */
+.sec03Dt02{font:1.2em arial,sans-serif;}
+.sec03Dt01{font:1.2em arial,sans-serif;}
+.sec03Dt03{font:1.2em arial,sans-serif;}
+.sec03Dt01>span{
+display:block;
+text-align:right;
+}
+.sec03Dt02>span{
+display:block;
+text-align:right;
+}
+.sec03Dt03>span{
+ display:block;
+ text-align:right;
+}
+/* section03_퍼센트 막대기 */
+@keyframes graph01 {
+    0%{width:0;}
+    100%{width:75%;}
+}
+@keyframes graph02 {
+    0%{width:0;}
+    100%{width:50%;}
+}
+@keyframes graph03 {
+    0%{width:0;}
+    100%{width:30%;}
+}
+.sec03Dd01{
+    margin:18px 0;
+    height:3px;
+    background-color:#eee;
+}
+.sec03Dd02{
+    margin:18px 0;
+    height:3px;
+    background-color:#eee;
+}
+.sec03Dd03{
+    margin:18px 0;
+    height:3px;
+    background-color:#eee;
+}
+.sec03Dd01>span{
+    width:75%;
+    height:3px;
+    box-sizing: border-box;
+    display:block;
+    text-align:right;
+    font:14px/20px arial,sans-serif;
+    background-color:#10c9c3;
+    animation:graph01 3s 1;
+}
+.sec03Dd02>span{
+    width:50%;
+    box-sizing: border-box;
+    height:3px;
+    display:block;
+    text-align:right;
+    font:14px/20px arial,sans-serif;
+    background-color:#10c9c3;
+    animation:graph02 3s 1;
+}
+.sec03Dd03>span{
+    width:30%;
+    box-sizing: border-box;
+    height:3px;
+    display:block;
+    text-align:right;
+    font:14px/20px arial,sans-serif;
+    background-color:#10c9c3;
+    animation:graph03 3s 1;
+}
+/* section04 */
+#section04{
+    height:234px;
+    background-color: aquamarine;
+}
+#sec04Box{
+    width:1070px;
+    padding-top:100px;
+    margin:0 auto;
+}
+#sec04Box>ul{
+    padding-right:70px;
+}
+#sec04Box>ul>li{
+    display:inline-block;
+    padding-left:70px;
+}
+/* section04_dt */
+/* section04_dd */
+.sec04Dd01>span{display:block;}
+.sec04Dd02>span{display:block;}
+.sec04Dd03>span{display:block;}
+.sec04Dd04>span{display:block;}
+
+/* section05 */
+#section05{
+    padding:0;
+    height:690px;
+    background-color: #999;
+}
+#sec05Ul>li{
+    width:335px;
+    height:300px;
+    display:inline-block;
+}
+#section05>button{
+    border:none;
+    width:100%;
+    height:90px;
+    font:20px arial, sans-serif;
+    color:#8e8e8e;
+}
