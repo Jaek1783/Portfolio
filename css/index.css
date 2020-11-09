@@ -35,7 +35,7 @@ a{
 
 header{
     /* width:100%; */
-    padding:0 100px;
+    padding:38px 100px 0;
     height:100px;
     /* background-color: blanchedalmond; */
 }
@@ -48,6 +48,7 @@ nav{
 nav>ul>li{
     display:inline-block;
     padding:0 20px;
+    text-transform: uppercase;
 }
 /* section 전체 CSS */
 section{
@@ -81,6 +82,7 @@ section{
  background-color:#10c9c3;
  color:#fff;
  border:none;
+ text-transform: uppercase;
 }
 /* section02 */
 #section02{
@@ -226,4 +228,18 @@ text-align:right;
     height:90px;
     font:20px arial, sans-serif;
     color:#8e8e8e;
+}
+/* section06_video */
+#section06{
+    height:744px;
+    text-align: center;
+    padding:96px;
+}
+#sec06VideoBox{
+    height:570px;
+    box-sizing: border-box;
+    background-color: #eee;
+}
+#section06>p{
+    padding-bottom:57px;
 }
