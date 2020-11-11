@@ -30,7 +30,9 @@ a{
     margin:0 auto;
     /* background-color: azure; */
 }
-
+img{
+width:100%;
+}
 /* header */
 
 header{
@@ -98,6 +100,11 @@ section{
 }
 .sec02Box>h2{
    font:bold 30px arial,sans-serif; 
+}
+.sec02Box>dl>dd{
+    margin:0 auto;
+    width:200px;
+    padding-top:25px;
 }
 /* section03 */
 #section03{
@@ -193,23 +200,32 @@ text-align:right;
     background-color: aquamarine;
 }
 #sec04Box{
-    width:1070px;
     padding-top:100px;
     margin:0 auto;
 }
 #sec04Box>ul{
-    padding-right:70px;
+    margin:0 auto;
+    width:900px;
 }
 #sec04Box>ul>li{
+    color:#fff;
+    font: 15px arial,sans-serif;
+    width:220px;
     display:inline-block;
-    padding-left:70px;
+}
+#sec04Box dt{
+    width:40px;
 }
 /* section04_dt */
+.sec04Dt01{float:left;padding-right:20px;}
+.sec04Dt02{float:left;padding-right:20px;}
+.sec04Dt03{float:left;padding-right:20px;}
+.sec04Dt04{float:left;padding-right:20px;}
 /* section04_dd */
-.sec04Dd01>span{display:block;}
-.sec04Dd02>span{display:block;}
-.sec04Dd03>span{display:block;}
-.sec04Dd04>span{display:block;}
+.sec04Dd01>span{display:block;font:bold 18px arial,sans-serif;}
+.sec04Dd02>span{display:block;font:bold 18px arial,sans-serif;}
+.sec04Dd03>span{display:block;font:bold 18px arial,sans-serif;}
+.sec04Dd04>span{display:block;font:bold 18px arial,sans-serif;}
 
 /* section05 */
 #section05{
@@ -217,11 +233,24 @@ text-align:right;
     height:690px;
     background-color: #999;
 }
-#sec05Ul>li{
+#sec05Box{
+    padding-top:5px;
+    margin:0 auto;
+    width:1358px;
+}
+#sec05Box>li{
     width:335px;
     height:300px;
     display:inline-block;
 }
+.sec05con01{background-color:#eee;}
+.sec05con02{background-color:#fff;}
+.sec05con03{background-color:#000;}
+.sec05con04{background-color:#fff;}
+.sec05con05{background-color:#000;}
+.sec05con06{background-color:#eee;}
+.sec05con07{background-color:#fff;}
+.sec05con08{background-color:#eee;}
 #section05>button{
     border:none;
     width:100%;
@@ -234,6 +263,7 @@ text-align:right;
     height:744px;
     text-align: center;
     padding:96px;
+    background-color:#fdd;
 }
 #sec06VideoBox{
     height:570px;
