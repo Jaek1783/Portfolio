@@ -301,3 +301,31 @@ text-align:right;
     display:block;
     font-weight: bold;
 }
+.sec07Btn{
+padding-top:100px;
+width:48px;
+margin:0 auto;
+}
+.Btn{
+    width:5px;
+    height:5px;
+    margin:2.5px 0;
+    display:inline-block;
+    background-color:#666;
+    border-radius: 50%;
+}
+.select{
+    width:10px;
+    height:10px;
+    margin:0;
+    background-color: #fff;
+}
+/* section08 */
+#section08{
+    height:200px;
+}
+/* section09 */
+#section09{
+    height:746px;
+    background-color: #eee;
+}
