@@ -275,7 +275,7 @@ text-align:right;
 }
 /* section07 */
 #section07{
-    height:535px;
+    height:535tpx;
 }
 .service{
     display:inline-block;
@@ -287,7 +287,12 @@ text-align:right;
     width:50px;
     display: inline-block;
 }
-.service>dl>dd{}
+.service>dl>dd.serviceText01{
+    font:bold 12px/30px arial, sans-serif;
+}
+.service>dl>dd.serviceText02{
+    font: 16px/20px "Nunito Sans", arial, sans-serif;
+}
 
 /* section08Box */
 #section08{
@@ -338,6 +343,20 @@ margin:0 auto;
 }
 /* section09 */
 #section09{
-    height:746px;
+    height:200px;
+    background-color: #fff;
+}
+#section09>ul{
+    width:1050px;
+    margin:0 auto;
+}
+.portfolio{
+    padding:58px 50px;
+    width:100px;
+    display:inline-block;
+}
+/* section10 */
+#section10{
+    height:750px;
     background-color: #eee;
 }
