@@ -275,7 +275,7 @@ text-align:right;
 }
 /* section07 */
 #section07{
-    height:535px;
+    height:380px;
 }
 .service{
     display:inline-block;
@@ -294,7 +294,7 @@ text-align:right;
     font: 16px/20px "Nunito Sans", arial, sans-serif;
 }
 
-/* section08Box */
+/* section08 */
 #section08{
     padding:0;
     width:100%;
@@ -359,4 +359,69 @@ margin:0 auto;
 #section10{
     height:750px;
     background-color: #eee;
+}
+fieldset{
+    width:670px;
+    padding:0;
+    margin:0 auto;
+    border:none;
+}
+legend{
+    text-align: center;
+}
+label{
+    width:1px;
+    height:1px;
+    line-height: 0;
+    position:fixed;
+    visibility: hidden;
+}
+input{
+    padding:0;
+    margin:0;
+}
+textarea{
+    padding:0;
+    margin:0;
+}
+.name>li{
+    display:inline-block;
+}
+/* footer */
+footer{
+    height:285px;
+    background-color: #000;
+    color:#fff;
+}
+.footer{
+    width:226px;
+    padding:100px;
+    font:20px arial, sans-serif;
+    float:left;
+}
+.footer>span{
+    font:15px arial, sans-serif;
+}
+.footerBox{
+    width:820px;
+    /* margin:0 auto; */
+    float:right;
+    padding:100px 0;
+}
+.footerBox>li{
+    text-align:left;
+    width:200px;
+    display:inline-block;
+}
+footer ul>li>a{
+    color:#fff;
+}
+.adress{
+    padding-right:100px;
+}
+.navigation>ul>li{
+    display:inline-block;
+}
+.navigation>ul>li>ul{
+    padding-right:20px;
 }
