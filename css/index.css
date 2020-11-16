@@ -12,10 +12,10 @@ html,body,h1,h2,h3,dl,ul,li,dt,dd{
     /* line-height: 1; */
 }
 .hideClass{
-    width:1;
-    height:1;
+    width:1px;
+    height:1px;
     line-height: 0;
-    display: fixed;
+    display:fixed;
     visibility: hidden;
 }
 a{
@@ -362,30 +362,60 @@ margin:0 auto;
 }
 fieldset{
     width:670px;
-    padding:0;
     margin:0 auto;
     border:none;
 }
 legend{
+    padding:100px 0;
     text-align: center;
+    font:bold 30px arrial, sans-serif;
+}
+legend>span{
+    font:normal 16px arial, sans-serif;
 }
 label{
-    width:1px;
-    height:1px;
-    line-height: 0;
-    position:fixed;
-    visibility: hidden;
-}
-input{
-    padding:0;
-    margin:0;
-}
-textarea{
-    padding:0;
-    margin:0;
+    position:absolute;
+    font:12px/50px arial, sans-serif;
+    color:#666;
 }
 .name>li{
     display:inline-block;
+    width:48%;
+}
+.name>li, .title, .text{
+    position: relative;
+}
+.name>li:last-child{
+    padding-left:20px;
+}
+.name>li:last-child>label{
+    top:0;
+    left:30px;
+}
+ .title>label, .name>li:first-child>label, .text>label{
+    top:0;
+    left:10px;
+}
+input, textarea{
+    border:none;
+    margin-bottom:10px;
+    width:100%;
+}
+input{
+    height:50px;
+}
+textarea{
+    height:170px;
+}
+.submit{
+    width:180px;
+    margin:0 auto;
+}
+input[type="submit"]{
+    background-color:#10c9c3;
+    color:#fff;
+    font:12px arial, sans-serif;
+    text-transform: uppercase;
 }
 /* footer */
 footer{
