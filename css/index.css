@@ -15,7 +15,7 @@ html,body,h1,h2,h3,dl,ul,li,dt,dd{
     width:1px;
     height:1px;
     line-height: 0;
-    display:fixed;
+    position:fixed;
     visibility: hidden;
 }
 a{
