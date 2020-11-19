@@ -8,8 +8,6 @@ ul{
 html,body,h1,h2,h3,dl,ul,li,dt,dd{
     padding:0;
     margin:0;
-    /* font-size:14; */
-    /* line-height: 1; */
 }
 .hideClass{
     width:1px;
@@ -23,23 +21,19 @@ a{
     color:black;
     font:1em/23px arial,sans-serif;
 }
-
+img{
+    width:100%;
+    }
 /* #wrap div */
 #wrap{
-    width:1366px;
+    width:100%;
     margin:0 auto;
-    /* background-color: azure; */
-}
-img{
-width:100%;
 }
 /* header */
 
 header{
-    /* width:100%; */
     padding:38px 100px 0;
     height:100px;
-    /* background-color: blanchedalmond; */
 }
 h1{
     float:left;
@@ -55,6 +49,7 @@ nav>ul>li{
 /* section 전체 CSS */
 section{
     padding:0 100px;
+    box-sizing: border-box;
 }
 /* section01 */
 #section01{
@@ -63,13 +58,11 @@ section{
 }
 
 .sec01Box{
-    padding-top:223px;
-    padding-right:50px;
-    width:500px;
-    height:230px;
-    /* float:right; */
-    text-align:left;
+    margin-top:223px;
+    margin-right:50px;
+    width:450px;
     float:right;
+    text-align:left;
 }
 .sec01Box>h2{
     font:2.5em/70px arial,sans-serif;
@@ -88,7 +81,6 @@ section{
 }
 /* section02 */
 #section02{
-    height:420px;
     background-color:#ffd;
 }
 .sec02Box{
@@ -108,11 +100,10 @@ section{
 }
 /* section03 */
 #section03{
-    height:570px;
     background-color: antiquewhite;
 }
 .sec03Box{
-    padding-top:165px;
+    padding:100px 15px;
     width:530px;
     font:12px arial, sans-serif;
 }
@@ -121,20 +112,10 @@ section{
     padding-bottom:40px;
 }
 /* section03_스킬 퍼센트% */
-.sec03Dt02{font:1.2em arial,sans-serif;}
-.sec03Dt01{font:1.2em arial,sans-serif;}
-.sec03Dt03{font:1.2em arial,sans-serif;}
-.sec03Dt01>span{
+.sec03dt{font:1.2em arial,sans-serif;}
+.sec03dt>span{
 display:block;
 text-align:right;
-}
-.sec03Dt02>span{
-display:block;
-text-align:right;
-}
-.sec03Dt03>span{
- display:block;
- text-align:right;
 }
 /* section03_퍼센트 막대기 */
 @keyframes graph01 {
@@ -149,17 +130,7 @@ text-align:right;
     0%{width:0;}
     100%{width:30%;}
 }
-.sec03Dd01{
-    margin:18px 0;
-    height:3px;
-    background-color:#eee;
-}
-.sec03Dd02{
-    margin:18px 0;
-    height:3px;
-    background-color:#eee;
-}
-.sec03Dd03{
+.sec03dd{
     margin:18px 0;
     height:3px;
     background-color:#eee;
@@ -230,17 +201,16 @@ text-align:right;
 /* section05 */
 #section05{
     padding:0;
-    height:690px;
+    /* height:690px; */
     background-color: #eef;
+    overflow: hidden;
 }
-#sec05Box{
-    padding-top:5px;
-    margin:0 auto;
-    width:1358px;
+.sec05Box{
+    width:2080px;
 }
-#sec05Box>li{
-    width:335px;
-    height:300px;
+.sec05Box>li{
+    width:19%;
+    /* height:313.2px; */
     display:inline-block;
 }
 .sec05con01{background-color:#eee;}
@@ -251,6 +221,9 @@ text-align:right;
 .sec05con06{background-color:#eee;}
 .sec05con07{background-color:#fff;}
 .sec05con08{background-color:#eee;}
+.sec05con09{background-color:#000;}
+.sec05con10{background-color:#eee;}
+
 #section05>button{
     border:none;
     width:100%;
@@ -260,22 +233,26 @@ text-align:right;
 }
 /* section06_video */
 #section06{
-    height:744px;
+
     text-align: center;
     padding:96px;
     background-color:#fdd;
 }
 #sec06VideoBox{
-    height:570px;
+    width:66.6%;
     box-sizing: border-box;
-    background-color: #eee;
+    margin:0 auto;
+}
+video{
+    width:100%;
 }
 #section06>p{
     padding-bottom:57px;
 }
 /* section07 */
-#section07{
-    height:380px;
+.sec07Box{
+    width:65%;
+    margin:0 auto;
 }
 .service{
     display:inline-block;
@@ -343,16 +320,19 @@ margin:0 auto;
 }
 /* section09 */
 #section09{
-    height:200px;
+    padding:0;
     background-color: #fff;
 }
 #section09>ul{
     width:1050px;
     margin:0 auto;
 }
-.portfolio{
-    padding:58px 50px;
-    width:100px;
+.bookmark{
+    width:66.6%;
+    margin:0 auto;
+}
+.susilogo{
+    width:19%;
     display:inline-block;
 }
 /* section10 */
