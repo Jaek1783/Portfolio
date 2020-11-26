@@ -24,9 +24,15 @@ a{
 img{
     width:100%;
     }
+@font-face{
+    font-family:"jp";
+    src: url('../font/japanese.otf');
+    format('otf');
+
+}
 /* #wrap div */
 #wrap{
-    width:100%;
+    max-width:1366px;
     margin:0 auto;
 }
 /* header */
@@ -61,63 +67,57 @@ section{
 }
 /* section01 */
 #section01{
-    padding:0;
-    height:670px;
+    height:570px;
+    padding:11em 0;
     background:url(../images/section01/img01.png) no-repeat center;
     background-size: cover;
 }
 .sec01Box{
-    margin-top:223px;
-    margin-right:50px;
-    width:450px;
-    float:right;
-    text-align:left;
+    /* width:630px; */
+    width:46.12%;
+    background-color: rgba(235, 229, 222, 0.58);
+    text-align: center;
+    margin:0 auto;
+    border-radius: 50%;
 }
-.sec01Box>h2{
-    font:2.5em/70px arial,sans-serif;
-    color:#fff;
-}
-.sec01Box>p{
-    font:1.2em/32px arial,sans-serif;
-    color:#fff;
-}
-.sec01Box>button{
- width:180px;
- font:1em/54px arial,sans-serif;
- background-color:#10c9c3;
- color:#fff;
- border:none;
- text-transform: uppercase;
+.sec01Box>h3{
+    color:#000;
+    font:2.5em/1em "jp", arial, sans-serif;
+    padding:50px 0;
 }
 /* section02 */
+#section02{
+    padding:150px 0;
+}
 .sec02Box{
+    /* width:370px; */
+    width:27.08%;
     margin:0 auto;
-    width:590px;
-    text-align: center;
-    padding-top:100px;
-    font:18px/27px arial,sans-serif;
-}
-.sec02Box>h2{
-   font:bold 30px arial,sans-serif; 
-}
-.sec02Box>dl>dd{
-    margin:0 auto;
-    width:200px;
-    padding-top:25px;
+    text-align:center;
+    font:1.5em/1.5em "jp", arial,sans-serif;
 }
 /* section03 */
 #section03{
-    background-color: #282828;
+    background-color: #060606;
+    padding:160px 100px;
 }
 .sec03Box{
-    padding:100px 15px;
-    width:530px;
-    font:12px arial, sans-serif;
+    display:flex;
 }
-.sec03Box>h2{
-    font:bold 30px arial,sans-serif;
+.review{
+    width:45%;
+    box-sizing: border-box;
+    font:12px arial, sans-serif;
+    margin-right:85px;
+}
+.review>h3{
+    font:bold 4em "Gulim", arial,sans-serif;
     padding-bottom:40px;
     color:#fff;
+}
+.imgbox{
+    width:45%;
+    margin-left:85px;
 }
 /* section03_스킬 퍼센트% */
 .sec03dt{
